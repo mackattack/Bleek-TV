@@ -1,0 +1,86 @@
+body {
+padding-top: 50px;
+background-image: url("resource/gif.gif");
+margin: 0px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+} 
+.topbox{
+  width: 100%;
+  height: 2px;
+  top:10%;
+  background-color: #2979D5;
+}
+.div1{
+  background-color: rgba(0,0,0,.8);
+	width: 1600px;
+	height: 1600px;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  margin-top: 190px;
+  transform: translate(-50%, -50%);
+  border: 1px solid #2979D5;
+}
+
+
+.networks{
+    text-align: center;
+    color: #2979D5;
+}
+.abc{
+position: absolute;
+left: 11%;
+top: 100%;
+border: 1px solid #2979D5;
+}
+.bravo{
+position: absolute;
+left: 27%;
+top: 100%;
+border: 1px solid #2979D5;
+}
+.cc{
+position: absolute;
+left: 43%;
+top: 100%;
+border: 1px solid #2979D5;
+}
+.cw{
+position: absolute;
+left: 59%;
+top: 100%;
+border: 1px solid #2979D5;
+}
+.fox{
+position: absolute;
+left: 75%;
+top: 100%;
+border: 1px solid #2979D5;
+}
+.fx{
+position: absolute;
+left: 11%;
+top: 124%;
+border: 1px solid #2979D5;
+}
+.mtv{
+position: absolute;
+left: 27%;
+top: 124%;
+border: 1px solid #2979D5;
+}
+.nbc{
+position: absolute;
+left: 43%;
+top: 124%;
+border: 1px solid #2979D5;
+}
+.nickelodeon{
+position: absolute;
+left: 59%;
+top: 124%;
+border: 1px solid #2979D5;
+}
