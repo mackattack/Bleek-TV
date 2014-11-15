@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,19 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Bleek TV</title>
-
-    <!-- Bootstrap core CSS -->
     <link href="resource/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href=" movies.css" rel="stylesheet">
+    <link href="player.css" rel="stylesheet">
+    <link href ="resource/css/video-js.min.css">
     <script src="resource/js/jquery.min.js"></script>
+    <script src="resource/js/bootstrap.min.js"></script>
+    <script src="resource/js/video.js">
+    <script>videojs.options.flash.swf = "resource/video-js.swf"</script>
   </head>
 
   <body>
-
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -36,15 +33,13 @@
             <li><a href="tv.html">TV Shows</a></li>
             <li><a href="movies.html">Movies</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
       <div class="topbox">
-
       </div>
     </div>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="resource/js/bootstrap.min.js"></script>
+
+    <div>
+
+    </div>
   </body>
-</html>
