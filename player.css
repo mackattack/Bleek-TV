@@ -13,3 +13,10 @@ margin: 0px;
   top:10%;
   background-color: #2979D5;
 }
+
+#playingvideo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;  
+}

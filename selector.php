@@ -17,6 +17,9 @@
   </head>
 
   <body>
+    <?php
+    $shownumber = $_POST['shownumber'];
+    ?>
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -43,7 +46,26 @@
         <div id="wowslider-container0">
         <div class="ws_shadow"></div>
         <h1 class="networks">Seasons</h1>
-        <a href="episodes.php"><img class="season" src="resource/img/FOX/familyguy.jpg" style= "width:220px;hieght:124px"></a>
+        <form method="post" action="episodes.php">
+    <input type="hidden" name="seasonnumber" value="12">
+    <input type="hidden" name="shownumber" value="1">
+    <input type="image" name="season12" id="familyguy" src="resource/img/FOX/familyguy.jpg" style= "width:220px;height:124px" value="submit" />
+    <p class="seasonheader">Season 12</p>
+    </form>
+    <form method="post" action="episodes.php">
+    <input type="hidden" name="seasonnumber" value="13">
+    <input type="hidden" name="shownumber" value="1">
+    <input type="image" name="season13" id="familyguy" src="resource/img/FOX/familyguy.jpg" style= "width:220px;height:124px" value="submit" />
+    <p class="seasonheader">Season 13</p>
+    </form>
       </div>
     </div>
+    <script type="text/javascript">
+    shownum = <?php echo $shownumber; ?>;
+    var familyguy = document.getElementById("familyguy");
+    familyguy.className = "invisible";
+    if (shownum == 1) {
+      familyguy.className = "visible";
+    }
+    </script>
   </body>
